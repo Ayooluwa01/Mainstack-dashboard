@@ -3,9 +3,10 @@ import Revenue from "./Pages/Revenue/Revenue"
 
 function App() {
   return (
-    <div>
+       <div>
   <Revenue />
     </div>
+   
   
   )
 }

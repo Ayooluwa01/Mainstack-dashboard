@@ -1,5 +1,7 @@
 import React from 'react'
+
 import LedgerBalance from './Ledgerbalance'
+import { ChartLineDots } from './Chart.js'
 
 export default function Accountbalance() {
   return (
@@ -24,15 +26,16 @@ export default function Accountbalance() {
             Withdraw
           </button>
         </div>
+          <ChartLineDots />
 
         {/* Graph Placeholder */}
         <div className="mt-4">
-          <h4 className="text-gray-500 text-sm">Graph</h4>
         </div>
       </div>
 
       {/* ==== Right Section (Ledger Balance) ==== */}
       <div className="w-full lg:w-[271px]">
+        
         <LedgerBalance />
       </div>
     </div>

@@ -4,9 +4,11 @@ import './index.css'
 import App from './App.jsx'
 import Navbar from './Components/Reusables/Navbar.js'
 
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Navbar />
-    <App />
-  </StrictMode>,
+     <Navbar />
+    <App />   
+ 
+  </StrictMode>
 )
